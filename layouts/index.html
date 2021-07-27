@@ -1,0 +1,10 @@
+{{ define "main" }}
+
+	{{ partial "banner" site.Data.banner }}
+	{{ partial "spotlight" site.Data.board }}
+	{{ partial "spotlight" site.Data.deck }}
+	{{ partial "section" site.Data.additionalChar }}
+	{{ partial "items" site.Data.phase }}
+	{{ partial "template/footer" . }}
+
+{{ end }}

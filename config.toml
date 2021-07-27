@@ -1,0 +1,27 @@
+## -----------------------------------------------
+## Basic Configuration
+## -----------------------------------------------
+
+title = "Strange armies"
+theme = "hugo-story"
+
+
+## -----------------------------------------------
+## Hugo Built-in Features
+## -----------------------------------------------
+
+disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+# googleAnalytics = "your-google-analytics-id"
+
+
+## -----------------------------------------------
+## Site Parameters
+## -----------------------------------------------
+
+[Params]
+  logo = "images/logo.jpg"
+  favicon = true
+
+[Params.social]
+  github = "https://github.com/StrangeArmies"
+  twitter = "https://twitter.com/strangearmies"

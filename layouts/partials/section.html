@@ -1,0 +1,22 @@
+<!-- Section -->
+<section class="wrapper style1 align-center">
+    <div class="inner">
+	<header>
+            {{ with .title }}<h3>{{ . }}</h3>{{ end }}
+        </header>
+    	<div class="index align-left">
+	    {{ with .content }}
+	    <div class="content">
+                <dl>
+		{{ range .list }}
+                    <dt>{{ .title }}</dt>
+                    <dd>
+                        <p>{{ .description | safeHTML }}</p>
+                    </dd>
+		{{ end }}
+                </dl>
+	    </div>
+	    {{ end }}
+	</div>
+    </div>
+</section>
